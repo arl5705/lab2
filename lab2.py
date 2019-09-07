@@ -1,5 +1,6 @@
 """
 Use recursion to print nested squares/diamonds
+
 Precondition: Turtle starts facing east in bottom left
 Postcondition: Correct shape/colors are drawn, turtle is in start position
 """
@@ -41,6 +42,8 @@ def recur(length, depth):
             turtle.forward(length/2)
             turtle.down()
             turtle.left(90)
+    else:
+        turtle.color('blue')
 
 def init():
     """
